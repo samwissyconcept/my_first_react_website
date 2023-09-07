@@ -72,7 +72,7 @@ function Contact() {
               className="outline-none border-[2px] border-gray-400 p-2 rounded"
             ></textarea>
           </div>
-          <button className="bg-green-500 p-2 text-white my-4  px-4 rounded-md text-xl font-bold hover:bg-green-600 ">
+          <button className="bg-blue-500 p-2 text-white my-4  px-4 rounded-md text-xl font-bold hover:bg-blue-600 ">
             Send
           </button>
         </form>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import johncena from "../assets/johncena.png";
+import samuel from "../assets/samuel.jpg";
 import { company_brands } from "./localDatabase";
 import { FaArrowRight } from "react-icons/fa";
 function Brand() {
@@ -8,17 +8,33 @@ function Brand() {
     <div>
       <div className=" w-10/12 m-auto grid sm:-grid-cols-1 md:grid-cols-2 py-8">
         <div className="mb-8 mr-4">
-          <img className="w-full " src={johncena} alt="about" />
+          <img className="w-full " src={samuel} alt="about" />
         </div>
         <div className="text">
-          <p className="py-4 text-lg">
-            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
-            augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
-            elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
-            habitasse platea dictumst.
+          <p className="py-4 text-lg font-serif">
+            Akeredolu Samuel, a visionary leader and tech enthusiast, hails from
+            the picturesque Ondo State in Nigeria. His journey into the world of
+            technology began as a young dreamer, eager to make a difference in
+            his community and beyond.
           </p>
-          <h1 className="text-green-500 font-bold py-4">John Cena</h1>
-          <h1 className="text-xl pb-4">Chairman at WWE</h1>
+          <p className="py-4 text-lg font-serif">
+            Growing up in the vibrant culture of Ondo State, Samuel exhibited a
+            natural curiosity for all things tech-related. At an early age, he
+            developed a knack for dismantling and reassembling gadgets, earning
+            him the nickname "Tech Wizard" among his peers.
+          </p>
+          <p className="py-4 text-lg font-serif">
+            Akeredolu Samuel is deeply committed to tech education and regularly
+            mentors young tech enthusiasts in Ondo State. His work fosters a new
+            generation of tech leaders in the region.
+          </p>{" "}
+          <p className="py-4 text-lg font-serif">
+            As CEO of Wissycon, Samuel continues to lead with a vision of
+            technology as a force for positive change. His journey from
+            curiosity to tech leadership inspires tech enthusiasts worldwide.
+          </p>
+          <h1 className="text-blue-500 font-bold py-4">Akeredolu Samuel</h1>
+          <h1 className="text-xl font-bold pb-4">C.E.O of Wissycon</h1>
           <div className="md:flex  items-center  ">
             <div className="grid md:grid-cols-8 gap-2">
               {company_brands.map((brand) => (

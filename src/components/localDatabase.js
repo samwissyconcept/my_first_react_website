@@ -1,13 +1,13 @@
 import lg from "../assets/company_logos/lg.png";
-import logo1 from "../assets/company_logos/bscho.png";
-import logo2 from "../assets/company_logos/hyundais.png";
-import logo3 from "../assets/company_logos/jenanair.png";
+import logo1 from "../assets/company_logos/disney.png";
+import logo2 from "../assets/company_logos/microsoft.png";
+import logo3 from "../assets/company_logos/the.png";
 import logo4 from "../assets/company_logos/southern company.png";
 import logo5 from "../assets/company_logos/novolex.png";
-import logo6 from "../assets/company_logos/Coca-Cola-Logo.png";
-import news1 from "../assets/news/BBC_News_2022_(Alt).svg.png";
-import news2 from "../assets/news/breaking-news-daily-newspaper-headline-CTG496.jpg";
-import news3 from "../assets/news/istockphoto-1264074047-612x612.jpg";
+import logo6 from "../assets/company_logos/google.png";
+import news1 from "../assets/news/ai.jpeg";
+import news2 from "../assets/news/iphone.jpg";
+import news3 from "../assets/news/pixel.webp";
 
 export const navigationLinks = [
   {
@@ -66,23 +66,24 @@ export const company_brands = [
 export const news = [
   {
     _id: "uibjd45Fd",
-    headline: "President is expected to travel for African Uinon Sumit",
+    headline: "Slack Integrates AI to Streamline Workplace Communication",
     newsDetails:
-      "lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit",
+      "The AI integration will feature the capability to summarise communication channels in Slack, making it easier for users to quickly understand the most important information, especially after returning from vacations or time away. This AI feature also extends its capabilities to message threads, ensuring that crucial messages don't go unnoticed.",
     image: news1,
   },
   {
     _id: "uibklklkljd45Fd",
-    headline: "President is expected to travel for African Uinon Sumit",
+    headline:
+      "iPhone 15 dummies confirm Dynamic Island on vanilla models, Action button on Pros",
     newsDetails:
-      "lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit",
+      "Starting with the vanilla iPhone 15, it will be available in the usual White and Black as well as three pastel colors: Yellow, Pink/Red and Blue. The chassis is still made out of aluminum and it has a brushed finish.",
     image: news2,
   },
   {
     _id: "uibjd4hnhj5Fd",
-    headline: "President is expected to travel for African Uinon Sumit",
+    headline: "Google Confirms New Pixel 8 Pro Feature With Surprise Leak",
     newsDetails:
-      "lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit",
+      " Google has again published details about its upcoming Pixel 8 pro before next month’s launch. This time, the company uploaded the full 360-degree simulator, which confirms a new feature and fresh colors for the handset. ",
     image: news3,
   },
 ];

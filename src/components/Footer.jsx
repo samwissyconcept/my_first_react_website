@@ -18,19 +18,25 @@ function Footer() {
       <div className="grid sm:grid-cols-1 md:grid-cols-4 w-10/12 m-auto gap-8">
         <div className="">
           <div className="flex items-center">
-            <img src="" alt="logo" />
-            <h1 className="text-xl font-bold uppercase">Nexcent </h1>
+            <img src="" alt="" />
+            <h1 className="text-xl font-bold uppercase">Wissycon</h1>
           </div>
 
           <div className="">
             <p className="text-lg py-8">
-              Copy right &copy; {year} Nexcent <br /> all rights reserved{" "}
+              Copy right &copy; {year} Wissycon <br /> all rights reserved{" "}
             </p>
             <div className="flex items-center">
-              <AiOutlineDribbble className="mx-2  cursor-pointer" size={25} />
-              <AiOutlineTwitter className="mx-2 " size={25} />
-              <AiOutlineInstagram className="mx-2 " size={25} />
-              <a href="https://www.youtube.com" target="blank">
+              <a href="https://www.dribble.com/wissyccon" target="blank">
+                <AiOutlineDribbble className="mx-2  cursor-pointer" size={25} />
+              </a>
+              <a href="https://www.twitter.com/wissyccon" target="blank">
+                <AiOutlineTwitter className="mx-2 " size={25} />
+              </a>
+              <a href="https://www.instagram.com/wissyccon_" target="blank">
+                <AiOutlineInstagram className="mx-2 " size={25} />
+              </a>
+              <a href="https://www.youtube.com/wissyccon" target="blank">
                 <CiYoutube className="mx-2 " size={25} />
               </a>
             </div>
@@ -76,8 +82,8 @@ function Footer() {
               <Link to="/privacy-Policy">
                 <li className="py-2 text-xl cursor-pointer">Privacy Policy</li>
               </Link>
-              <Link to="/satus">
-                <li className="py-2 text-xl cursor-pointer">Satus</li>
+              <Link to="/status">
+                <li className="py-2 text-xl cursor-pointer">Status</li>
               </Link>
             </ul>
           </div>

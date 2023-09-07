@@ -1,8 +1,8 @@
 import React from "react";
 import { company_brands } from "./localDatabase";
-import { RiTeamLine } from "react-icons/ri";
-import { LiaIndustrySolid } from "react-icons/lia";
-import { GiJugglingClubs } from "react-icons/gi";
+import { FaLaptopCode } from "react-icons/fa";
+import { MdDesignServices } from "react-icons/md";
+import { IoMdBusiness } from "react-icons/io";
 import security_image from "../assets/security (2).svg";
 import { Link } from "react-router-dom";
 function OurClient() {
@@ -15,7 +15,7 @@ function OurClient() {
       <div className="brands_images grid md:grid-cols-4 lg:grid-cols-7 gap-4 py-8">
         {company_brands.map((image) => (
           <div className="flex items-center " key={image._id}>
-            <img src={image.image} alt="brands" className="w-[60px]" />
+            <img src={image.image} alt="brands" className="w-[80px]" />
           </div>
         ))}
       </div>
@@ -26,66 +26,43 @@ function OurClient() {
           </div>
         ))}
       </div>
-      <h1 className="pt-8 text-center font-bold text-xl md:w-[30%] m-auto">
-        Manage your entire community in a single system
+      <h1 className="pt-8 text-center font-bold text-3xl md:w-[30%] m-auto">
+        Our Expertise
       </h1>
-      <p className="text-center pb-4">Who is Nextcent suitable for?</p>
+      <p className="text-center pb-4"></p>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 ">
         <div className="text-center   boxshadow p-8 rounded-sm">
           <div className="flex justify-center">
-            <RiTeamLine className="text-green-500" size={50} />
+            <FaLaptopCode className="text-blue-500" size={50} />
           </div>
-          <h1 className="text-xl font-bold py-4">Membership Organisations</h1>
+          <h1 className="text-xl font-bold py-4">Web Development </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsum commodi sunt illum, minima quia!
+            Crafting exceptional web solutions with expertise, delivering
+            outstanding results, and setting your digital presence apart.
           </p>
         </div>
         <div className="text-center boxshadow p-8 rounded-sm">
           <div className="flex justify-center">
-            <LiaIndustrySolid className="text-green-500" size={50} color="" />
+            <MdDesignServices className="text-blue-500" size={50} color="" />
           </div>
-          <h1 className="text-xl font-bold py-4 ">National Associations</h1>
+          <h1 className="text-xl font-bold py-4 ">Graphics Design </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsum commodi sunt illum, minima quia!
+            Creating striking visuals, delivering captivating designs, and
+            elevating your brand's visual identity
           </p>
         </div>
         <div className="text-center boxshadow p-8 rounded-sm">
           <div className="flex justify-center">
-            <GiJugglingClubs className="text-green-500" size={50} />
+            <IoMdBusiness className="text-blue-500" size={50} />
           </div>
-          <h1 className="text-xl font-bold py-4"> Clubs And Groups</h1>
+          <h1 className="text-xl font-bold py-4"> Digital Marketing</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            ipsum commodi sunt illum, minima quia!
+            Driving online success, optimizing strategies, and amplifying your
+            brand's online presence and reach.
           </p>
         </div>
       </div>
       {/* last div */}
-      <div className="py-8 grid sm:grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="image">
-          <img src={security_image} alt="image1" className="w-full" />
-        </div>
-        <div className="text">
-          <h1 className="font-bold text-2xl py-4">
-            The unseen of spending three years at Pixelgrade
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
-            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
-            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
-            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
-            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
-            elementum pulvinar odio.
-          </p>
-          <Link to="/learn-more">
-            <button className="bg-green-500 text-white font-bold   p-2 my-4 rounded focus:outline-none focus:ring hover:bg-green-800 active:bg-blue-400">
-              Learn More
-            </button>
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }

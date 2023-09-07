@@ -15,7 +15,7 @@ function Navigation() {
         <div className="logo flex items-center">
           <img src="" alt="" />
           <Link to="/">
-            <span className="font-bold text-2xl uppercase">Nexcent</span>
+            <span className="font-bold text-2xl uppercase">Wissycon</span>
           </Link>
         </div>
         {/* desktok view */}
@@ -30,7 +30,7 @@ function Navigation() {
 
           <Link
             to="/register"
-            className="text-white flex items-center bg-green-500  rounded ml-8"
+            className="text-white flex items-center bg-blue-500  rounded ml-8"
           >
             <button className=" p-2 ">Register Now</button>
             <FaArrowRight className="mx-2" color="#fff" />
@@ -47,13 +47,13 @@ function Navigation() {
       {open && (
         <div>
           {/* mobile navigation */}
-          <div className="md:hidden bg-green-300  h-[calc(100vh-3.5rem)] p-4  ">
+          <div className="md:hidden bg-blue-300  h-[calc(100vh-3.5rem)] p-4  ">
             {navigationLinks.map((link) => (
               <ul key={link._id} className="flex flex-col">
                 <Link to={`/${link.link}`}>
                   <li
                     onClick={() => setOpen(false)}
-                    className="text-xl text-white p-2 rounded cursor-pointer bg-green-600 my-2 hover:bg-green-900"
+                    className="text-xl text-white p-2 rounded cursor-pointer bg-blue-600 my-2 hover:bg-green-900"
                   >
                     {link.link}
                   </li>
@@ -62,7 +62,7 @@ function Navigation() {
             ))}
             <Link
               to="/register"
-              className="text-white flex items-center bg-green-600  rounded mt-2 hover:bg-green-900"
+              className="text-white flex items-center bg-blue-600  rounded mt-2 hover:bg-blue-900"
             >
               <button className=" p-2 ">Register Now</button>
               <FaArrowRight className="mx-2" color="#fff" />
