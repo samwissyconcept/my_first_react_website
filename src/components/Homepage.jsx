@@ -5,7 +5,7 @@ function Homepage() {
     <div className="bg-[rgb(245,247,250)]  py-16  md:py-16 lg:py-32 xl:py-68 mt-4 lg:h-[calc(100vh-3.5rem)]">
       <div className="w-10/12 m-auto md:flex justify-between">
         <div className="text">
-          <h1 className="md:text-4xl text-black-500 lg:text-6xl font-bold">
+          <h1 className="md:text-4xl text-black-500 text-4xl lg:text-6xl font-bold">
             <span className="text-blue-500"> Wissycon</span>
             <br />
             Empowering Digital Excellence{" "}
